@@ -1,0 +1,10 @@
+server:
+  port: 1113
+eureka:
+  instance:
+    hostname: eureka-server-node3
+  client:
+    service-url:
+      defaultZone: http://eureka-server-node1:1111/eureka/,http://eureka-server-node2:1112/eureka/
+
+

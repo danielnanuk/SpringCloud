@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-client-service-foo
+server:
+  port: 2001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server-node1:1111/eureka/,http://eureka-server-node2:1112/eureka/,http://eureka-server-node3:1113/eureka/
